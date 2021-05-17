@@ -64,7 +64,7 @@ def checkPanel(IP):
                 if req.status_code == 200:
                     print(fg(118, 209, 0) + IP + line)
             except:
-                notimportant = 1337
+                pass
 
 #Checks if the IP is online
 def checkIPWeb():
@@ -85,7 +85,7 @@ def checkWeb(IP):
                 if req.status_code == 200:
                     print(fg(118, 209, 0) + IP + line)
             except:
-                notimportant = 1337
+                pass
 
 #Does what number 1 does
 num = input("Choose a number: ")
